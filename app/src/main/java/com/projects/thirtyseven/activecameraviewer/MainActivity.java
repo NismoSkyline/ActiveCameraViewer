@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 childEvent(dataSnapshot);
-                Toast.makeText(MainActivity.this, "Downloaded!!!", Toast.LENGTH_SHORT).show();
             }
 
             @Override
