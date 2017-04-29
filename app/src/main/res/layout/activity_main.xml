@@ -24,7 +24,6 @@
         app:layout_constraintBottom_toTopOf="@+id/relativeLayout">
 
         <LinearLayout
-            android:id="@+id/cameraLinear1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -32,6 +31,7 @@
             tools:layout_editor_absoluteY="8dp">
 
             <FrameLayout
+                android:id="@+id/cameraLinear1"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:background="?android:attr/selectableItemBackground"
@@ -92,7 +92,6 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/cameraLinear2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -100,6 +99,7 @@
             tools:layout_editor_absoluteY="8dp">
 
             <FrameLayout
+                android:id="@+id/cameraLinear2"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:background="?android:attr/selectableItemBackground"
@@ -158,7 +158,6 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/cameraLinear3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -166,6 +165,7 @@
             tools:layout_editor_absoluteY="8dp">
 
             <FrameLayout
+                android:id="@+id/cameraLinear3"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:background="?android:attr/selectableItemBackground"
@@ -225,7 +225,6 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/cameraLinear4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -233,6 +232,7 @@
             tools:layout_editor_absoluteY="8dp">
 
             <FrameLayout
+                android:id="@+id/cameraLinear4"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:background="?android:attr/selectableItemBackground"
@@ -292,7 +292,6 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/cameraLinear5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -300,6 +299,7 @@
             tools:layout_editor_absoluteY="8dp">
 
             <FrameLayout
+                android:id="@+id/cameraLinear5"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:background="?android:attr/selectableItemBackground"
@@ -359,7 +359,6 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/cameraLinear6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -367,6 +366,7 @@
             tools:layout_editor_absoluteY="8dp">
 
             <FrameLayout
+                android:id="@+id/cameraLinear6"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:background="?android:attr/selectableItemBackground"
