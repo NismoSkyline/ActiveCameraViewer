@@ -16,7 +16,6 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
     FrameLayout cameraLinear1, cameraLinear2, cameraLinear3, cameraLinear4, cameraLinear5, cameraLinear6;
-    Button viewerModButton;
     Camera camera;
     ImageView imageView1, imageView2, imageView3, imageView4, imageView5, imageView6;
     FirebaseDatabase database;
@@ -177,7 +176,6 @@ public class MainActivity extends AppCompatActivity {
         cameraLinear4 = (FrameLayout) findViewById(R.id.cameraLinear4);
         cameraLinear5 = (FrameLayout) findViewById(R.id.cameraLinear5);
         cameraLinear6 = (FrameLayout) findViewById(R.id.cameraLinear6);
-        viewerModButton = (Button) findViewById(R.id.viewerButton);
         database = FirebaseDatabase.getInstance();
         databaseReference = database.getReference("Camera");
         camera = new Camera();
